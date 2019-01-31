@@ -1,0 +1,23 @@
+input {
+    padding: 10px;
+    margin-bottom: 40px;
+}
+button {
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.hide {
+    opacity: 0;
+    visibility: hidden;
+}
+.red-text {
+    color: red;
+}
+.red-border {
+    border: 2px red solid;
+}
+button:disabled {
+    opacity: .4;
+}
