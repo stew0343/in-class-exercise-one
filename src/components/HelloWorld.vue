@@ -5,7 +5,7 @@
       <div v-if="inlineValidationClass" class="red-text">You have exceeded 50 characters!</div>
     </div>
     <div class="button-wrapper">
-      <button v-bind:class="[textInput.length > 50 ? 'disable' : '']">Submit</button>
+      <button v-bind:disabled="isButtonDisabled">Submit</button>
 
     </div>
   </div>
